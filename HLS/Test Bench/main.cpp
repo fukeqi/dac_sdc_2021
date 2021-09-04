@@ -163,12 +163,7 @@ int main()
 	ofm_blob32 = (ADT32*)sds_alloc(32*fm_all*sizeof(ADT));
 	ofm_blob = (ADT*)sds_alloc(64*163*323*sizeof(ADT));
 	//*************************************load data *********************************
-	for(int i=0;i<3;i++){
-		load_img(img,320*160*4);
-		HlsNet(img, ofm_blob32, bbox);
-		Compute_BBOX(bbox);
-	}
-	/*
+
 	printf("load parameter\n");
 	load_img(img,320*160*4);
 	//****************skynet*********************
@@ -185,16 +180,15 @@ int main()
 	std::cout<<"pool1:"<<std::endl;
 	fm_DT32_2_DT(& ofm_blob32[pool1_o], ofm_blob, config[3]);
 	distitch(ofm_blob, ofm, config[3]);
-	//check_fm(ofm[0], config[3]);
+	check_fm(ofm[0], config[3]);
 
 	std::cout<<"pool2:"<<std::endl;
 	fm_DT32_2_DT(& ofm_blob32[pool2_o], ofm_blob, config[5]);
 	distitch(ofm_blob, ofm, config[5]);
-	//check_fm(ofm[0], config[5]);
-
+	check_fm(ofm[0], config[5]);
 
 	Compute_BBOX(bbox);
-	*/
+	
 	return 0;
 
 
