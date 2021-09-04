@@ -144,7 +144,7 @@ int main()
 {
 
 	//*************************************init *********************************
-	printf("init SkyNet \n");
+	printf("init HlsNet \n");
 	ap_int<32> BBOX[4][26];
 	ADT4* img;
 	ADT4* bbox;
