@@ -1,0 +1,120 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><title>CSDN文章，下载后用浏览器打开</title><link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/detail-64e2d60643.min.css" /><link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/themes/skin-yellow/skin-yellow-db01cea9f7.min.css" /><link rel="stylesheet" href="https://csdnimg.cn/public/sandalstrap/1.4/css/sandalstrap.min.css" /><link rel="stylesheet" href="https://csdnimg.cn/release/blog_editor_html/release1.6.0/ckeditor/plugins/chart/chart.css" /><script type="text/javascript" src="https://csdnimg.cn/release/blog_editor_html/release1.6.0/ckeditor/plugins/chart/lib/chart.min.js"></script><script type="text/javascript" src="https://csdnimg.cn/release/blog_editor_html/release1.6.0/ckeditor/plugins/chart/widget2chart.js"></script><script type="text/javascript" src="https://csdnimg.cn/release/phoenix/production/pc_wap_common-f91259fb12.js"></script><link rel="stylesheet" href="https://csdnimg.cn/release/blog_editor_html/release1.6.0/ckeditor/plugins/codesnippet/lib/highlight/styles/atom-one-dark.css" /><style>main div.blog-content-box .article-header-box .article-header div.article-info-box div.article-bar-top .article-heard-img {    width: 20px;    height: 20px;    margin-top: 6px;}main div.blog-content-box .article-header-box .article-header div.article-info-box div.article-bar-top .article-vip-img {margin-right: 4px;}main div.blog-content-box .article-header-box .article-header div.article-info-box div.article-bar-top .article-collect-img {    vertical-align: -3px;margin-right: 2px;width: 16px; height: 16px;}header div.article-info-box .operating { display: none;}main div.blog-content-box .article-header-box .article-header div.article-info-box div.article-bar-top .article-type-img {display: none;}</style></head><body class="nodata "><link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/ck_htmledit_views-833878f763.css" /><link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/ck_htmledit_views-833878f763.css" /><link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/blog_code-c3a0c33d5c.css" /><link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/vendor/pagination/paging-e040f0c7c8.css" /><link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/chart-3456820cac.css" /><div class="main_father clearfix d-flex justify-content-center" style="height:100%;"><div class="container clearfix" id="mainBox"><div class="space_container"></div> 
+    <main> 
+<div class="blog-content-box">
+    <div class="article-header-box">
+        <div class="article-header">
+            <div class="article-title-box">
+                <h1 class="title-article" id="articleContentId">FPGA（3）Xilinx Ultra96_v2 使用教程-pynq</h1>
+            </div>
+            <div class="article-info-box">
+                <div class="article-bar-top">
+                    <img class="article-type-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/original.png" alt="">
+                    <div class="bar-content">
+                        <img class="article-vip-img article-heard-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/identityVip.png" alt="">
+                        <span class="article-vip-text vip_article"> VIP文章</span>
+                    <a class="follow-nickName " href="https://blog.csdn.net/Mint_vip" target="_blank" rel="noopener">Mint_vip</a>
+                    <span class="time">2021-02-25 14:09:07</span>
+                    <img class="article-read-img article-heard-img" src="https://csdnimg.cn/release/blogv2/dist/pc/img/articleReadEyes.png" alt="">
+                    <span class="read-count">68</span>
+                    <a id="blog_detail_zk_collection" class="un-collection" data-report-click="{&quot;mod&quot;:&quot;popu_823&quot;,&quot;spm&quot;:&quot;1001.2101.3001.4232&quot;,&quot;ab&quot;:&quot;new&quot;}">
+                        <img class="article-collect-img article-heard-img un-collect-status isdefault" style="display:inline-block" src="https://csdnimg.cn/release/blogv2/dist/pc/img/tobarCollect.png" alt="">
+                        <img class="article-collect-img article-heard-img collect-status isactive" style="display:none" src="https://csdnimg.cn/release/blogv2/dist/pc/img/tobarCollectionActive.png" alt="">
+                        <span class="name">收藏</span>
+                        <span class="get-collection">
+                        </span>
+                    </a>
+                    </div>
+                </div>
+                <div class="blog-tags-box">
+                    <div class="tags-box artic-tag-box">
+                            <span class="label">分类专栏：</span>
+                                <a class="tag-link" href="https://blog.csdn.net/mint_vip/category_10802694.html" target="_blank" rel="noopener">PYNQ</a>
+                                <a class="tag-link" href="https://blog.csdn.net/mint_vip/category_10623370.html" target="_blank" rel="noopener">FPGA</a>
+                    </div>
+                </div>
+                <div class="slide-content-box">
+                    <div class="article-copyright">
+                        <div class="creativecommons">
+                            版权声明：本文为博主原创文章，遵循<a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener"> CC 4.0 BY-SA </a>版权协议，转载请附上原文出处链接和本声明。
+                        </div>
+                        <div class="article-source-link">
+                            本文链接：<a href="https://blog.csdn.net/Mint_vip/article/details/110293576" target="_blank">https://blog.csdn.net/Mint_vip/article/details/110293576</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="operating">
+                    <a class="href-article-edit slide-toggle">版权</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="csdn-shop-window-top" class="csdn-shop-window-common" style="margin-top:18px;padding:0"></div>
+    <article class="baidu_pl">
+        <div id="article_content" class="article_content clearfix">
+        <link rel="stylesheet" href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/editerView/ck_htmledit_views-b5506197d8.css">
+                <div id="content_views" class="markdown_views prism-atom-one-dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                        <path stroke-linecap="round" d="M5,0 0,2.5 5,5z" id="raphael-marker-block" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);"></path>
+                    </svg>
+                    <p></p>
+<div class="toc">
+ <h3><a name="t0"></a>FPGA（3）Xilinx Ultra96_v2 使用教程-PYNQ教程-第一个项目</h3>
+ <ul><li><ul><li><a href="#Ultra96_v2PYNQ_2" target="_self">Ultra96_v2开发板之使用教程-PYNQ</a></li><li><a href="#PYNQ_13" target="_self">PYNQ入门</a></li><li><ul><li><a href="#PYNQ_14" target="_self">什么是PYNQ</a></li><li><a href="#Samba__23" target="_self">Samba 服务</a></li></ul>
+   </li><li><a href="#HLS_26" target="_self">HLS</a></li><li><ul><li><a href="#HLS_27" target="_self">什么是HLS</a></li><li><a href="#_30" target="_self">实现一个简单的加法器</a></li><li><ul><li><a href="#HLS_36" target="_self">HLS</a></li><li><a href="#vivado_IP_53" target="_self">vivado IP连接</a></li><li><a href="#pynq_91" target="_self">pynq中的调用</a></li></ul>
+   </li></ul>
+   </li><li><a href="#linux_116" target="_self">通过网线连入linux的方法</a></li></ul>
+ </li></ul>
+</div>
+<p></p> 
+<h2><a name="t1"></a><a id="Ultra96_v2PYNQ_2"></a>Ultra96_v2开发板之使用教程-PYNQ</h2> 
+<p>时间： 2020-12-29<br> 更新时间：2020-12-02<br> 作者：zb18@tsinghua.org.cn</p> 
+<hr> 
+<p><sup class="footnote-ref"><a href="#fn1" id="fnref1" target="_self">1</a></sup></p> 
+<h2><a name="t2"></a><a id="PYNQ_13"></a>PYNQ入门</h2> 
+<h3><a name="t3"></a><a id="PYNQ_14"></a>什么是PYNQ</h3> 
+<p><strong>之前的教程中讲解了如何安装PYNQ系统到ultra96开发板</strong><br> 详情可以查看<a href="https://ultra96-pynq.readthedocs.io/en/latest/getting_started.html">参考链接</a><br> <code>https://ultra96-pynq.readthedocs.io/en/latest/index.html</code><br> <code>https://pynq.readthedocs.io/en/v2.6.1/</code><br> 要了解PYNQ需要首先了解什么是ZYNQ， Zynq可以看作是以高性能FPGA作为外设的arm处理器， 可以使用arm核完成PS（处理系统） 端的工作， 使用FPGA完成PL（可编程逻辑） 端的工作， 二者之间可以使用dma、 axi总线等方式快速通信。<br> PYNQ是一个支持Xilinx Zynq器件的开源软件框架， 目的在于借助Python降低Zynq嵌入式系统开发门槛， 相当于使用python完成PS端的开发； PL端则与传统的FPGA一样， 需要使用vivado、 HLS等工具进行硬件设计。 PS端通过相关库函数对PL端进行读写操作， PL端则按照硬件电路的方式完成从输<br> 入信号到输出信号的处理过程。</p> 
+<h3><a name="t4"></a><a id="Samba__23"></a>Samba 服务</h3> 
+<p>远程读写linux文件的服务。通过windows输入 //pynq/xilinx 登录用户名和密码都是xilinx。详情阅读官方文档。windows10系统可能无法连接。可以通过更新smaba或者设置windows来修复。参考<code>https://www.cnblogs.com/smartlife/articles/9263581.html</code></p> 
+<h2><a name="t5"></a><a id="HLS_26"></a>HLS</h2> 
+<h3><a name="t6"></a><a id="HLS_27"></a>什么是HLS</h3> 
+<p>HLS是高层次综合的缩写， 可以简单的理解为对你的C或C++代码进行处理， 生成一个vivado可用的IP核， 在vivado中对这个IP核按照一定方式进行连接以后就可以生成我们熟悉的Verilog或VHDL语言的wrapper， 之后可以生成比特流和硬件设计文件的Overlay， 将Overlay导入PYNQ就可以使用库函数完成数据的输入输出， 而运算的过程则在PL部分以硬件电路的形式完成。</p> 
+<h3><a name="t7"></a><a id="_30"></a>实现一个简单的加法器</h3> 
+<p>本文完成官方指导手册上的加法器案例。并将遇到的问题和关键步骤截图。适合新手结合教程step by step入门。</p> 
+<p>参考视频：<br> <code>https://www.youtube.com/watch?v=Dupyek4NUoI</code></p> 
+<h4><a id="HLS_36"></a>HLS</h4> 
+<ol><li>最新版本的软件开发包使用vitis hls来完成hls的高层次综合。打开软件后新建一个项目。<br> <img src="https://img-blog.csdnimg.cn/20201128220714857.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li><li>本案例是一个加法器，设置hls的顶层功能名字为add，并为项目新建一个add.cpp的C++文件，用户代码编辑。<br> <img src="https://img-blog.csdnimg.cn/20201128220930289.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></li><li>本案例暂时不涉及testbench， 页直接下一页。进入到solution Configuration页面。part selection中添加我们使用的开发板或者芯片。这里选用ultra96v2的开发板</li></ol> 
+<p><img src="https://img-blog.csdnimg.cn/20201128221309938.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 4. 新建完成后，打开项目中的add.cpp。编辑hls代码。具体代码内容参考 <code>https://pynq.readthedocs.io/en/v2.1/overlay_design_methodology.html</code> 中的tutorial<br> 5. 随后点击run，开始综合。<br> <img src="https://img-blog.csdnimg.cn/20201128221715872.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 6. 点击Export RTL奖hls综合为RTL<br> <img src="https://img-blog.csdnimg.cn/20201128221804874.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 7.综合完成后可以在列表中找到综合后的.v。同时可以在hw.h中查看到硬件模块接口被映射到的地址空间。到此HLS部分就完成了。<br> <img src="https://img-blog.csdnimg.cn/20201128222040616.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p> 
+<h4><a id="vivado_IP_53"></a>vivado IP连接</h4> 
+<p>在vitis HLS中将C语言综合为IP。在Vivado中将硬件IP与mcu进行连接。构成PS-PL互联工作的系统。</p> 
+<ol><li> <p>新建vivado项目。<br> <img src="https://img-blog.csdnimg.cn/20201128222914565.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p> </li><li> <p>项目类型为RTL项目<br> <img src="https://img-blog.csdnimg.cn/20201128222859708.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p> </li><li> <p>选择使用的开发板为ultra96v2</p> </li></ol> 
+<p><img src="https://img-blog.csdnimg.cn/20201128223554320.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p> 
+<ol start="4"><li> <p>在IP integrator中创建block design。<br> <img src="https://img-blog.csdnimg.cn/2020112822390930.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p> </li><li> <p>添加zynq block<br> <img src="https://img-blog.csdnimg.cn/20201128224310604.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p> </li><li> <p>【暂时不执行本步骤】在这里run Bolock automation可以配置zynq的相关连接属性。按照教程实现是本步骤会导致后面报错，原因还没有分析。<br> <img src="https://img-blog.csdnimg.cn/20201128224433342.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p> </li><li> <p>在vivado顶部菜单栏中打开tools-&gt;settings。在IP栏添加repositores。所添加内容为第一步在vitis中创建并综合好的adder项目<br> <img src="https://img-blog.csdnimg.cn/20201128224709501.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p> </li><li> <p>此时IP就被添加到vivado。 在diagram中将本IP添加进来。并可以在block properties中修改ip的名字。这里修改成了scalar_add。将在python中使用这个名字。</p> </li></ol> 
+<p><img src="https://img-blog.csdnimg.cn/2020112822490370.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 9. 点击run connection automation可以自动完成连线。<br> <img src="https://img-blog.csdnimg.cn/20201128225049168.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 10. 自动连接后保存。在sources右键design。点击 create HDL wrapper。</p> 
+<p><img src="https://img-blog.csdnimg.cn/20201128225147574.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 11. wrapper完成后，点击左边面板的generate bitstream。<br> <img src="https://img-blog.csdnimg.cn/20201128225906113.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 12. 在vivado 顶部菜单栏中，export block design 为一个TCLfile<br> <img src="https://img-blog.csdnimg.cn/20201128230033511.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 13. 在项目文件加中，按照如下类似路径，找到bit文件。这里的bit文件和上一步生成的tcl文件将在pynq中被使用。<br> <img src="https://img-blog.csdnimg.cn/20201129150625582.png" alt="在这里插入图片描述"></p> 
+<h4><a id="pynq_91"></a>pynq中的调用</h4> 
+<ol><li>利用samba或者其他方法将上文中获得的tcl文件和bit文件拷贝到开发板中。</li><li>本案例将文件拷贝到了~/jupyter_notebooks/mytestwork目录下 .</li></ol> 
+<p><img src="https://img-blog.csdnimg.cn/20201129151515168.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 3. 新建一个notebook-python3. 将教程中的代码填入。依然参考代码：<br> <code>https://pynq.readthedocs.io/en/v2.1/overlay_design_methodology/overlay_tutorial.html</code></p> 
+<ol start="4"><li>执行时遇到以下错误。这是因为xilinx在新版本中即将取消对tcl文件的使用，与之对应的是替换成了hwh文件。上面的教程对于老版本的pynq和vivado适用，对于最新的版本，我们需要将项目的hwh文件也拷贝到路径下。参考解决案例<code>https://discuss.pynq.io/t/empty-bitstream-files/1268</code><br> 使用hwh文件可以直接查看overlay的寄存器数据并对寄存器赋值， 对于之后的实验也有所帮助。</li></ol> 
+<p><img src="https://img-blog.csdnimg.cn/20201129153655941.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p> 
+<ol start="5"><li>在vivado项目中找到hwh文件，使用搜索或按照如下路径查找<br> <img src="https://img-blog.csdnimg.cn/20201129154011556.png" alt="在这里插入图片描述"></li><li>将本文件同样按照步骤2拷贝到开发板系统中。注意文件名称需要保持一致。如下图。</li></ol> 
+<p><img src="https://img-blog.csdnimg.cn/20201129154159968.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"><br> 7. 此时重复3步骤。执行代码。结果如下图。更详细的解释可以查阅官方文档。</p> 
+<p><img src="https://img-blog.csdnimg.cn/2020112916025179.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L01pbnRfdmlw,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p> 
+<h2><a name="t8"></a><a id="linux_116"></a>通过网线连入linux的方法</h2> 
+<ul><li>网线一端插入电脑，另一端插入FPGA（linux）开发板。</li><li>在linux系统中输入ifconfig，查看以太网卡ip，假设是192.168.2.99</li><li>在windows页面设置本地连接属性 ipv4： ip设置成不与linux冲突的，比如192.168.2.2； 在网关设置为linux的ip：192.168.2.99；</li><li>点击确定会自动生成子网掩码，然后再点击确定。</li><li>等待片刻连接成功。</li><li>通过192.168.2.99访问到linux中的pynq页面</li><li>通过\pynq\xilinx 访问到文件。</li></ul> 
+<hr class="footnotes-sep"> 
+<section class="footnotes"> 
+ <ol class="footnotes-list"><li id="fn1" class="footnote-item"><p>参考资料 Junchen.Wu 基于PYNQ的Ultra96入门 <a href="#fnref1" class="footnote-backref" target="_self">↩︎</a></p> </li></ol> 
+</section>
+                </div><div data-report-view="{&quot;mod&quot;:&quot;1585297308_001&quot;,&quot;dest&quot;:&quot;https://blog.csdn.net/Mint_vip/article/details/110293576&quot;,&quot;extend1&quot;:&quot;pc&quot;,&quot;ab&quot;:&quot;new&quot;}"><div></div></div>
+                <link href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/editerView/markdown_views-d7a94ec6ab.css" rel="stylesheet">
+                <link href="https://csdnimg.cn/release/blogv2/dist/mdeditor/css/style-f1c5feb645.css" rel="stylesheet">
+        </div>
+    </article>
+</div>
+
+
+    </main>  
+   </div>
+  </div>
+ </body>
+</html>
